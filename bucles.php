@@ -37,11 +37,9 @@ $requeriments = [
 </head>
 <body>
    <ul>
-     <?php 
-     foreach ($requeriments as $requeriment){
-        echo "<li>" +$requeriment+ "</li>";
-     }
-     ?>
+   <?php foreach ($requeriments as $requeriment): ?>
+            <li><?= $requeriment ?></li>
+        <?php endforeach; ?>
    </ul>
 </body>
 </html>
